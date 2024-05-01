@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main_col {
+    /* border: 1px solid black; */
+    width: 48%;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(to top,rgba(240, 182, 23, 0.7)0,rgba(233, 176, 20, 0.8)100%,
+    rgba(231,186,57,0.9)100%),url(/src/img/col.jpg);
+    background-position: fixed;
+    background-size: cover;
+}
+
+.main_col h1 {
+    padding-top: 3rem;
+}
+
+.main_col h3 {
+    padding: 1rem 2rem;
+}
+
+.col_list {
+    padding: 2rem;
+}
+
+.col_list ul li {
+    list-style: none;
+    padding: 0.6rem 3.8rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.col_list ul li::before{
+    content: '';
+}
+
+.main_row {
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.contact_row {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 2.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(238, 177, 11);
+}
+
+.contact_row p {
+    display: inline-block;
+    padding-left: 1.3rem;
+}
+
+.media a {
+    text-decoration: none;
+    padding: 0.6rem;
+}
+.media a img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.theme_row {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 47vh;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.8) 100%)
+            ,url(/src/img/themeYlw.jpg);
+}
+.themeTitle{
+    padding: 11rem 3rem;
+}
+.theme_row p{
+    padding: 0 3rem;
+}
+
+
+
+.about_row {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 34.5vh;
+    text-align: center;
+}
+
+.about_row h2 {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.about_row p {
+    padding: 0 2.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.aboutImg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.3rem;
+}
+.aboutImg img{
+    border-radius: 0.3rem;
+    width: 160px;
+    height: 90px;
+}

@@ -1,0 +1,32 @@
+.header {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E6E6E6;
+}
+
+.logo h2 a{
+    padding: 1rem;
+    color: rgb(255, 189, 6);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline;
+
+}
+
+.header ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: gray;
+    transition: all 0.3s;
+}
+.header ul li a:hover{
+    color: rgb(255, 189, 6);
+}

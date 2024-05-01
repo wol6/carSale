@@ -1,0 +1,23 @@
+.contact_footer {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(238, 177, 11);
+}
+
+.contact_footer p {
+    display: inline-block;
+    padding-left: 1.3rem;
+}
+
+.media a {
+    text-decoration: none;
+    padding: 0.6rem;
+}
+.media a img{
+    width: 1.6rem;
+    height: 1.6rem;
+}

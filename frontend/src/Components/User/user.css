@@ -1,0 +1,15 @@
+.profile{
+    /* border: 1px solid black; */
+    width: 10rem;
+    text-align: center;
+    position: relative;
+    right: 1.5rem;
+    color: royalblue;
+}
+.header img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 2.8rem;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_store_container{
+
+    /* background: #b4b0b0; */
+    background: linear-gradient(to bottom,rgba(243, 203, 95,0.3)0,rgba(236, 180, 25,0.8)100%
+    ,rgba(236, 180, 25,0.8)100%);
+}
+.car_container{
+
+    /* border: 1px solid black; */
+    border-radius: 1.2rem;
+    margin: 2rem 3rem;
+    width: 20rem;
+    height: 22rem;
+    display: inline-block;
+    background: #E6E6E6;
+}
+.car_container img{
+    width: 20rem;
+    height: 10rem;
+    padding: 0.8rem;
+    margin: 0.3rem 0;
+}
+.car_details{
+    display: flex;
+    justify-content: space-around;
+}
+.car_container div p{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+.car_container button{
+    width: 90%;
+    margin: 0.8rem 0.8rem;
+    padding: 0.4rem 2.8rem;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight:600;
+    background: rgb(255, 189, 6);
+    cursor: pointer;
+}
+.searchDiv{
+    background:rgb(251,238,203)
+}
+.search{
+    width: 350px;
+   margin: 10px 470px;
+   height: 30px;
+   border: 2px solid rgb(167, 160, 160);
+   border-radius: 20px;
+   background:rgb(251,238,203);
+   color:rgb(56, 55, 52);
+   font-size: 22px;
+   font-weight: 600;
+}

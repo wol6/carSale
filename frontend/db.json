@@ -1,0 +1,97 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "company": "BMW",
+      "carName": "BMW 350i",
+      "fuel": "petrol",
+      "model": "2018 white",
+      "price": "$10000",
+      "emi": true,
+      "img": "https://cdn.pixabay.com/photo/2016/11/18/12/51/automobile-1834274_1280.jpg"
+    },
+    {
+      "id": "2",
+      "company": "Audi",
+      "carName": "Audi A4",
+      "fuel": "diesel",
+      "model": "2020 black",
+      "price": "$15000",
+      "emi": false,
+      "img": "https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_640.jpg"
+    },
+    {
+      "id": "3",
+      "company": "Mercedes",
+      "carName": "C-Class",
+      "fuel": "petrol",
+      "model": "2019 white",
+      "price": "$12000",
+      "emi": true,
+      "img": "https://cdn.pixabay.com/photo/2016/12/03/18/57/car-1880381_640.jpg"
+    },
+    {
+      "id": "4",
+      "company": "Jeep",
+      "carName": "Wrangler",
+      "fuel": "hybrid",
+      "model": "2021 black",
+      "price": "$20000",
+      "emi": false,
+      "img": "https://cdn.pixabay.com/photo/2018/03/07/19/46/vehicle-3206929_640.jpg"
+    },
+    {
+      "id": "5",
+      "company": "Ferrari",
+      "carName": "Silverstone",
+      "fuel": "petrol",
+      "model": "2017 blue",
+      "price": "$8000",
+      "emi": true,
+      "img": "https://cdn.pixabay.com/photo/2014/09/07/22/34/car-race-438467_640.jpg"
+    },
+    {
+      "id": "6",
+      "company": "Ford",
+      "carName": "Mustang",
+      "fuel": "petrol",
+      "model": "2016 blue",
+      "price": "$18000",
+      "emi": false,
+      "img": "https://cdn.pixabay.com/photo/2016/06/11/18/58/auto-1450573_640.jpg"
+    },
+    {
+      "id": "7",
+      "company": "Chevrolet",
+      "carName": "Malibu",
+      "fuel": "petrol",
+      "model": "2018 grey",
+      "price": "$11000",
+      "emi": true,
+      "img": "https://cdn.pixabay.com/photo/2015/12/28/23/35/auto-1112183_640.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": "3298",
+      "fullname": "ALwyn Mathew",
+      "email": "alwynmathew007@gmail.com",
+      "password": "Alwyn@666",
+      "cnfPassword": "Alwyn@666"
+    },
+    {
+      "id": "b976",
+      "fullname": "Allen",
+      "email": "a@gmail.com",
+      "password": "Allen@666",
+      "cnfPassword": "Allen@666"
+    },
+    {
+      "id": "d4e2",
+      "fullname": "shailesh",
+      "email": "shailesh123@gmail.com",
+      "password": "Shailesh@123",
+      "cnfPassword": "Shailesh@123"
+    }
+  ]
+}
